@@ -94,11 +94,11 @@ footer {
     margin: 20px 0 0;
 }
 
-/*
+
 main {
-   
+   margin: 35px;
 }
-*/
+
 
 form {
     margin: 40px 0;
@@ -118,7 +118,7 @@ form label, form legend {
 }
 
 .checkbox {
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .enviar {
