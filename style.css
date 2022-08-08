@@ -164,6 +164,7 @@ td, th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    text-shadow: 2px 2px 10px #000000;
 }
 
 .principal {
@@ -209,7 +210,6 @@ td, th {
 .beneficios {
     padding: 3em 0;
     background: #888888;
-    
 }
 
 .conteudo-beneficios {
@@ -237,6 +237,13 @@ td, th {
 
 .imagem-beneficio {
     width: 60%;
+    opacity: 0.3;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficio:hover {
+    opacity: 1;
 }
 
 .video {
@@ -244,6 +251,3 @@ td, th {
     margin: 2em auto;
 }
     
-
-
-
